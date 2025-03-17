@@ -1,0 +1,9 @@
+repos:
+  - repo: git@codeserver.jinde.local:huyl/pre-commit-hooks.git
+    rev: v1.3.5
+    hooks:
+      - id: clang-format
+        args: [
+          '-i',
+          ]
+        files: ^(?:src|example)/.*\.(cpp|h)$

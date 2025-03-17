@@ -1,0 +1,6 @@
+cmake32
+cmake64
+build*
+bin
+outlib*
+install

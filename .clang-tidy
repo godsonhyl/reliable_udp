@@ -1,0 +1,19 @@
+Checks: '-*,
+         clang-analyzer-*,
+         readability-redundant-*,
+         performance-*,
+         readability-identifier-naming'
+
+CheckOptions:
+  - key:             readability-identifier-naming.VariableCase
+    value:           lower_case
+  - key:             readability-identifier-naming.LocalVariableCase
+    value:           lower_case
+  - key:             readability-identifier-naming.GlobalConstantCase
+    value:           UPPER_CASE
+  - key:             readability-identifier-naming.ConstVariableCase
+    value:           CamelCase
+  - key:             readability-identifier-naming.MemberCase
+    value:           camelBack
+  - key:             readability-identifier-naming.ConstMemberCase
+    value:           CamelCase
