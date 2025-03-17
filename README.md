@@ -18,10 +18,7 @@ example目录提供了部分case：
 * udp组播同时收发：pub_sub_test
 
 
-是否可靠还需进一步验证
-
-* 计划通过订阅转发RTS回报数据验证udp单播可靠性
-* [mkt_forward](https://codeserver.jinde.local/huyl/mkt_forward)通过转发lightfeed行情验证udp组播可靠性 
+是否真的可靠还需进一步验证
 
 
 
