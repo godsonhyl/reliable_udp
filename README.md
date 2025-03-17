@@ -18,12 +18,4 @@ example目录提供了部分case：
 * udp组播同时收发：pub_sub_test
 
 
-是否真的可靠还需进一步验证
-
-
-
-
-
-
-
-
+reliable_udp是否真的可靠还需进一步大量测试验证
