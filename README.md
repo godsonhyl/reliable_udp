@@ -18,7 +18,7 @@ example目录提供了部分case：
 * udp组播同时收发：pub_sub_test
 
 
-reliable_udp是否真的可靠还需进一步大量测试验证
+***reliable_udp是否真的可靠还需进一步大量测试验证***
 
 ## 编译与运行
 
@@ -37,7 +37,7 @@ reliable_udp是否真的可靠还需进一步大量测试验证
   cd build && cmake .. && cmake -j8 && make install && cd -
   ```
 
-#### 启动demo应用程序
+#### 启动应用程序
 
 在 Aeron 的 C++ 版本中，aeronmd 是 Aeron 的 Media Driver（媒体驱动），它是 Aeron 的核心组件之一，负责管理低级别的网络通信和内存映射文件。要运行 Aeron C++ 应用程序，首先需要启动 aeronmd，然后再运行demo程序。
 
